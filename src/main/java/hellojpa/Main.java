@@ -26,6 +26,8 @@ public class Main {
 			Team team = new Team();
 			team.setName("teamA");
 			em.persist(team);
+			
+			
 
 			Member member = new Member();
 			// member.setId(100L);
